@@ -1,0 +1,252 @@
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta content="IE-edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, intial-scale=1.0" name="viewport">
+    <title>Esteban Magnon</title>
+
+    <script src="https://kit.fontawesome.com/45280cb382.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!--------------------------- Partie "Barre de navigation" -------------------------------->
+<nav class="navigation">
+
+    <!--Logo à gauche -->
+    <a href="#" class="logo">
+        <img src="images/logoEsteban.png" alt="logo du site"/>
+    </a>
+
+    <!--Bouton du menu ----->
+    <input type="checkbox" class="menu-btn" id="menu-btn">
+    <label for="menu-btn" class="menu-icon">
+        <span class="nav-icon"></span>
+    </label>
+
+    <!--Boutons vers les différentes sections du site--->
+    <ul class="menu">
+        <li><a href="#main">Acceuil</a></li>
+        <li><a href="#skills">Compétences</a></li>
+        <li><a href="#values">Valeurs</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <!-- Bouton Hire Me----->
+    <a href="#" class="hire-me">
+        Hire Me
+        <!--icon-->
+        <i class="fas fa-chevron-right"></i>
+    </a>
+</nav>
+
+<!------------------------- Section principale du site (landing page) ---------------------->
+<section id="main">
+
+    <!-- Texte d'acceuil-------------->
+    <div class="main-text">
+        <h1>Hello World, I'm Esteban Magnon</h1>
+        <p>Engineering Student at ECE School in France. I like tech and study about cybersecurity !</p>
+
+        <!-- Les deux boutons sous le texte ---------->
+        <div class="main-btns">
+            <a href="#" class="download-cv-btn">Mon CV</a>
+            <a href="#" class="hire-me-btn">Hire Me</a>
+        </div>
+    </div>
+
+    <!-- Arrière plan de la photo d'Esteban ------------>
+    <div class="esteban-bg">
+        <img data-aos="fade" data-aos-duration="3000" src="images/esteban-bg.svg"
+             alt="Arrière plan composé de lignes colorées"/>
+    </div>
+
+    <!--Photo d'Esteban -------------->
+    <div class="esteban">
+        <img src="images/esteban.png" alt="Photo d'Esteban"/>
+    </div>
+</section>
+
+<!--------------------------- Partie "Compétences" -------------------------------->
+
+<section id="skills">
+
+    <!-- Container des textes de skills---->
+    <div class="skills-text-section">
+
+        <!-- Titre --------->
+        <div class="skill-heading" data-aos="fade">
+            <span>Hard skills</span>
+            <h2>Compétences</h2>
+        </div>
+
+        <!--skill-container--->
+        <div class="s-box-container">
+            <!--skill-container-->
+            <div class="skill-box" data-aos="fade-up">
+                <!--Icone du skill---->
+                <div class="s-box-icon">
+                    <i class="fa-regular fa-c"></i>
+                </div>
+                <!--Texte lié---->
+                <div class="s-box-text">
+                    <strong>C & C++ </strong>
+                    <p>Langages étudiés durant 2 ans. Réalisation de 4 projets de jeux-vidéos.</p>
+                    <!--Ligne de progression---->
+                    <div class="progress-line c"><span></span></div>
+                </div>
+            </div>
+
+            <!--skill-container-->
+            <div class="skill-box" data-aos="fade-up">
+                <!--Icone du skill---->
+                <div class="s-box-icon">
+                    <i class="fab fa-css3-alt"></i>
+                </div>
+                <!--Texte lié---->
+                <div class="s-box-text">
+                    <strong> HTML & CSS</strong>
+                    <p>Langages étudiés durant 6 mois. Création de plusieurs petits sites.</p>
+                    <!-- Ligne de progression---->
+                    <div class="progress-line html"><span></span></div>
+                </div>
+            </div>
+
+            <!--skill-container-->
+            <div class="skill-box" data-aos="fade-up">
+                <!-- Icone du skill---->
+                <div class="s-box-icon">
+                    <i class="fab fa-java"></i>
+                </div>
+                <!--Texte lié---->
+                <div class="s-box-text">
+                    <strong>Java</strong>
+                    <p>Langage étudié durant 4 mois. Maîtrise des opérations de base.</p>
+                    <!-- Ligne de progression---->
+                    <div class="progress-line java"><span></span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Image à la droite de la section---------->
+    <div class="skill-img">
+        <a href="https://www.github.com/EstebanMag">
+            <img data-aos="fade" src="images/githubEsteban.png" alt="Exemple de projet réalisé par Esteban."/>
+
+        </a>
+    </div>
+</section>
+
+<!--------------------------- Partie "Mes Valeurs" -------------------------------->
+<section id="values">
+
+    <!-- Titre----->
+    <strong class="values-heading" data-aos="fade-up">
+        Soft skills</strong>
+
+    <!--values-box-container----->
+    <div class="values-box-container">
+
+        <!--values-box--------->
+
+        <div class="values-box" data-aos="fade-up">
+            <!--icon-->
+            <i class="fas fa-code"></i>
+            <!--heading--->
+            <strong>Travail d'équipe</strong>
+            <!--details-->
+            <p>Il n'est pas possible de tout faire soi-même, et même si tel était le cas, communiquer permet toujours de
+                confronter des points de vues et de pousser un projet vers l'avant. Je crois ainsi fermement en les
+                bénéfices du travail d'équipe.</p>
+        </div>
+
+        <!--values-box--------->
+        <div class="values-box" data-aos="fade-up">
+            <!--icon-->
+            <i class="fas fa-cogs"></i>
+            <!--heading--->
+            <strong>Adaptabilité</strong>
+            <!--details-->
+            <p>Parce qu'un projet ne se déroule pas toujours de la manière dont on le prévoie, il est
+                nécéssaire de pouvoir s'adapter à n'importe quelle étape de ce dernier et de savoir remettre en question
+                ses choix.</p>
+        </div>
+
+        <!--values-box--------->
+        <div class="values-box" data-aos="fade-up">
+            <!--icon-->
+            <i class="fas fa-drafting-compass"></i>
+            <!--heading--->
+            <strong>Créativité</strong>
+            <!--details-->
+
+            <p>J'accorde une grande importance à l'experience et l'interface utilisateur. Je m'attache donc ainsi à
+                rendre mes projets simple à utiliser et visuellement attarctif. Je sais ansi être force de proposition
+                sur un
+                plan visuel au sein d'un projet.</p>
+        </div>
+
+        <!--service-box--------->
+        <div class="values-box" data-aos="fade-up">
+            <!--icon-->
+            <i class="far fa-chart-bar"></i>
+            <!--heading--->
+            <strong>Curiosité</strong>
+            <!--details-->
+            <p>Les technologies évoluent rapidemment, et se former continuellement aux nouveautés peux
+                permettre d'aborder un projet depuis des perspectives différentes de celles habituelles.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Contactez moi (bouton discutons ensemble) ------------------>
+<section id="get-in-touch" data-aos="fade-up">
+    <span>Pas encore convaincu ?</span>
+    <a href="#">Discutons !</a>
+</section>
+
+<!--------------------------- Partie "Contact" -------------------------------->
+
+<section id="contact">
+    <!--form----------->
+    <form data-aos="fade-up">
+        <!--full-name---->
+        <input type="text" name="fullname" placeholder="Nom Prénom" required>
+
+        <!--email-------->
+        <input type="email" name="email" placeholder="esteban@example.com" required>
+
+        <!--write-something-->
+        <textarea name="message" placeholder="Ecrivez quelque-chose..." required></textarea>
+        
+        <!--send-btn---->
+        <input type="submit" value="Send">
+    </form>
+</section>
+
+<!--------------------------- Partie "Footer" -------------------------------->
+<footer>
+    <!--copyright-->
+    <span class="copyright">Created in 2022 by Esteban Magnon</span>
+    <!--footer-social-links---->
+    <div class="footer-social">
+        <!--Linkedin-->
+        <a href="https://www.linkedin.com/in/esteban-magnon/">
+            <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <!--Instagram-->
+        <a href="https://www.instagram.com/esteban.mxn">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+        <!--Github-->
+        <a href="https://github.com/Whyiest">
+            <i class="fab fa-github"></i>
+        </a>
+    </div>
+</footer>
+
+</body>
+</html>
